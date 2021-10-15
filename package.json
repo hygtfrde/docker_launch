@@ -1,0 +1,23 @@
+{
+  "name": "dockernode",
+  "version": "1.0.0",
+  "description": "set up for node app with docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hygtfrde/docker_launch.git"
+  },
+  "author": "Harold Ulrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hygtfrde/docker_launch/issues"
+  },
+  "homepage": "https://github.com/hygtfrde/docker_launch#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
